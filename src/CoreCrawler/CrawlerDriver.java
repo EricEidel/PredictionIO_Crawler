@@ -93,11 +93,11 @@ public class CrawlerDriver
 			
 			System.out.println("Creating connection to Recomendation Engine...");
 			/* set appurl to your API server */
-	        String appurl = "http://localhost:8000";
-	        /* set appkey for the engine. */
-	        String appkey_2 = "ZL70ye3wxYGlfJGVX077r8R4XsB6oM60PXoqDfxbgDk3pOppnxKCj02ztOAVLrET";
-			
-	        // Initiate the connector
+		        String appurl = "http://localhost:8000";
+		        /* set appkey for the engine. */
+		        String appkey_2 = "ZL70ye3wxYGlfJGVX077r8R4XsB6oM60PXoqDfxbgDk3pOppnxKCj02ztOAVLrET";
+				
+		        // Initiate the connector
 			PredIOConn conn = new PredIOConn(appurl, appkey_2);
 			// Set debug console printouts on.
 			conn.setDebug(true);
